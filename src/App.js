@@ -1,9 +1,10 @@
-import React from 'react';
+import React from 'react'
 
-export default function App() {
-  return (
-   <div>
-      <h1>React Compoent</h1>
-   </div>
-  );
+const App = () =>{
+    return(
+        <div>
+            <h1>Hello React Update</h1>
+        </div>
+    )
 }
+export default App;
