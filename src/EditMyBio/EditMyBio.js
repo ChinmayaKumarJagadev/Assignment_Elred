@@ -37,12 +37,6 @@ const EditMyBio = () => {
     setBloodGroup(e.target.value);
   };
 
-  const handleConfirmationBox = () => {
-    setOpenAlert(false);
-  };
-
-  const handleDeleteTask = () => {};
-
   const backToBIo = () => {
     window.location.href = "/";
   };
@@ -175,7 +169,7 @@ const EditMyBio = () => {
           type="submit"
           onClick={SaveData}
           style={{
-            marginTop: "100px",
+            marginTop: "60px",
             height: "50px",
             borderRadius: "6px",
             background: "lightcoral",
