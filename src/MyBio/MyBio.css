@@ -1,0 +1,77 @@
+.bioScreen {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  height: auto;
+  border: 1px solid black;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.topsection {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.leftIcon {
+  height: 20px;
+  margin: 15px 10px 0 0px;
+}
+.aboutSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 25px;
+}
+.aboutSection p {
+  margin: 0;
+}
+.editIcon {
+  margin-left: auto; 
+  cursor: pointer;
+  height: 25px;
+  margin-top: 15px;
+}
+.inputText{
+  width: 99%;
+  height: 100px; 
+  padding: 10px;
+  border: none;
+  outline: none;
+  resize: vertical; 
+  font-size: 16px;
+  overflow-y: hidden;
+  border-bottom: 1px solid black; 
+}
+.bloodGroup{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px ;
+}
+.option{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+.rightIcon{
+    transform: rotate(180deg);
+    height: 25px;
+    margin-left: auto;
+}
+.resumeSection{
+    display: flex;
+    box-shadow: 2px 20px 50px 10px lightgrey inset;
+    margin-top: 25px;
+    padding: 10px 0 10px 0 ;
+}
+.resumeSection p{
+  margin: 0;
+}
+.itemsBio {
+  background: lightblue;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  height: 25px;
+  padding: 5px;
+}

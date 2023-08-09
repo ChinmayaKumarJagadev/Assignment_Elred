@@ -1,0 +1,94 @@
+.bioScreen {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  height: auto;
+  border: 1px solid black;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.topsection {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.leftIcon {
+  height: 20px;
+  margin: 15px 10px 0 0px;
+}
+.aboutSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 25px;
+}
+.aboutSection p {
+  margin: 0;
+}
+.editIcon {
+  margin-left: auto;
+  cursor: pointer;
+}
+.inputTextEdit {
+  width: 99%;
+  height: 100px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  resize: vertical;
+  font-size: 16px;
+  overflow-y: hidden;
+  border-bottom: 1px solid black;
+}
+.bloodGroup {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.option {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+.rightIcon {
+  transform: rotate(180deg);
+  height: 25px;
+  margin-left: auto;
+}
+.resumeSectionEdit {
+  box-shadow: 2px 20px 50px 10px lightgrey inset;
+  margin-top: 25px;
+  padding: 10px 0 10px 0;
+}
+.resumeSectionEdit p {
+  margin: 0;
+}
+.deleteIcon {
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+}
+
+.confirmation-modal-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+  }
+  
+  .confirmation-modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    max-width: 80%; 
+    text-align: center;
+  }
+  
